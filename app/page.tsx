@@ -42,43 +42,43 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 
 export default function Home() {
   const events = [
-    // {
-    //   title_ceremony: "Haldi and Mehndi",
-    //   image: "/assets/mehandi.webp",
-    //   venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Gobind Farm) <br /> 11:00 am Onwards</>,
-    //   link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
-    // },
+    {
+      title_ceremony: "Haldi and Mehndi",
+      image: "/assets/mehandi.webp",
+      venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Gobind Farm) <br /> 11:00 am Onwards</>,
+      link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
+    },
 
-    // {
-    //   title_ceremony: "Jago",
-    //   image: "/assets/jago_amul.png",
-    //   venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Gobind Farm) <br /> 7:00 pm Onwards</>,
-    //   link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
-    // },
+    {
+      title_ceremony: "Jago",
+      image: "/assets/jago_amul.png",
+      venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Gobind Farm) <br /> 7:00 pm Onwards</>,
+      link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
+    },
 
-    // {
-    //   title_ceremony: "Shagan",
-    //   image: "/assets/shagan.webp",
-    //   venue_address: <>Friday, November 27th 2026 <br />  At our residence (Gobind Farm) <br /> 11:00 am Onwards</>,
-    //   link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
-    // },
+    {
+      title_ceremony: "Shagan",
+      image: "/assets/shagan.webp",
+      venue_address: <>Friday, November 27th 2026 <br />  At our residence (Gobind Farm) <br /> 11:00 am Onwards</>,
+      link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
+    },
 
-    // {
-    //   title_ceremony: "Ring ceremony",
-    //   image: "/assets/ring_amul.png",
-    //   venue_address: <>Friday, November 27th 2026 <br /> Hotel Pasricha - Banquets & Lawns <br /> 8:00 pm Onwards</>,
-    //   link: "https://maps.app.goo.gl/8V9hVAr9Tz9qoQey7",
-    // },
+    {
+      title_ceremony: "Ring ceremony",
+      image: "/assets/ring_amul.png",
+      venue_address: <>Friday, November 27th 2026 <br /> Hotel Pasricha - Banquets & Lawns <br /> 8:00 pm Onwards</>,
+      link: "https://maps.app.goo.gl/8V9hVAr9Tz9qoQey7",
+    },
 
-    // {
-    //   title_ceremony: "Anand Karaj",
-    //   image: "/assets/anand_amul.png",
-    //   venue_address: <>Saturday, November 28th 2026 <br /> GURUDWARA SINGH SABHA, BILHARI <br /> 11:30 am Onwards</>,
-    //   link: "https://maps.app.goo.gl/J8xLdsUC1PTdgQrN9",
-    //   title_ceremony2: "Followed by Lunch",
-    //   venue_address2: <>Saturday, November 28th 2026 <br /> Tulip Hall, Hotel Pasricha <br /> 2:00 pm Onwards</>,
-    //   link2: "https://maps.app.goo.gl/8V9hVAr9Tz9qoQey7",
-    // },
+    {
+      title_ceremony: "Anand Karaj",
+      image: "/assets/anand_amul.png",
+      venue_address: <>Saturday, November 28th 2026 <br /> GURUDWARA SINGH SABHA, BILHARI <br /> 11:30 am Onwards</>,
+      link: "https://maps.app.goo.gl/J8xLdsUC1PTdgQrN9",
+      title_ceremony2: "Followed by Lunch",
+      venue_address2: <>Saturday, November 28th 2026 <br /> Tulip Hall, Hotel Pasricha <br /> 2:00 pm Onwards</>,
+      link2: "https://maps.app.goo.gl/8V9hVAr9Tz9qoQey7",
+    },
 
     //  {
     //   title_ceremony: "Wedding ",
@@ -226,7 +226,7 @@ export default function Home() {
             </p>
           </div>
 
-          {/* <div className="flex justify-center mt-20 lg:mt-40">
+          <div className="flex justify-center mt-20 lg:mt-40">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-32 3xl:gap-50">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
@@ -277,47 +277,8 @@ export default function Home() {
                 </div>
               ))}
             </div>
-          </div> */}
-
-
-
-          <div className="flex justify-center mt-20 lg:mt-40">
-            <div className="flex flex-wrap justify-center gap-16 lg:gap-32 3xl:gap-50 w-full">
-              {events.map((event, i) => (
-                <div
-                  key={i}
-                  className="flex flex-col items-center text-center w-full md:w-[calc(50%-2rem)] lg:w-[calc(33.333%-5rem)]"
-                >
-                  <img
-                    src={event.image}
-                    className="w-75 md:w-76 lg:w-80 3xl:w-100 h-auto"
-                  />
-
-                  <h2 className="text-[#15528A] font-playfair-display text-3xl md:text-2xl lg:text-[42px] mt-4">
-                    {event.title_ceremony}
-                  </h2>
-
-                  <p className="text-[#15528A] font-playfair-display text-sm md:text-base mt-2">
-                    <span className="text-sm md:text-base lg:text-xl">
-                      {event.venue_address}
-                    </span>
-                    <br />
-                  </p>
-
-                  <a
-                    href={event.link}
-                    className="text-[#15528A] underline md:text-sm text-[12px] mt-2 font-playfair-display"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    See the route
-                  </a>
-
-
-                </div>
-              ))}
-            </div>
           </div>
+
 
           <div className="relative flex flex-col items-center pt-30 lg:pt-50 3xl:pt-90 3xl:gap-60">
             {/* Center Text */}
@@ -327,14 +288,14 @@ export default function Home() {
                 With <br />Love From
               </p>
 
-              <p className="text-[#15528A] font-eb-garamond text-sm md:text-xl lg:text-3xl mt-4 lg:px-60 px-25 md:px-40 3xl:px-60">
+              <p className="text-[#15528A] font-eb-garamond text-sm md:text-xl lg:text-3xl mt-4 lg:px-150 px-25 md:px-60">
                 {/* Thank you for being part of our journey.
                 Your presence makes this celebration truly
                 meaningful, and we look forward to sharing
                 these cherished moments with you. */}
-                Sardar Pradeep Singh Kamboj <br />
-                Sardar Vikram Singh Kamboj  <br />
-                Sardar Rishi Raman Singh Kamboj
+                Sardar Pradeep Singh Kamboj <br/>
+Sardar Vikram Singh Kamboj  <br/>
+Sardar Rishi Raman Singh Kamboj
               </p>
             </div>
             <Image
