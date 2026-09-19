@@ -15,12 +15,12 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sargunwedskopal_reception.vercel.app/"),
+  metadataBase: new URL("https://sargunwedskopal-reception.vercel.app/"),
 
   openGraph: {
     title: "Sargun Singh Kamboj & Kopal Kaur Ajmani",
     description: "Join as they begin their forever. 29 November, 2026",
-    url: "https://sargunwedskopal_reception.vercel.app/",
+    url: "https://sargunwedskopal-reception.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
 
  other: {
-    "og:image:secure_url": "https://sargunwedskopal_reception.vercel.app/og.jpg",
+    "og:image:secure_url": "https://sargunwedskopal-reception.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 
