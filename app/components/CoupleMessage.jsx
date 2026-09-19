@@ -1,14 +1,14 @@
 export default function CoupleMessage() {
   return (
-    <div className="bg-[url('/assets/respo_bg_two5.png')] md:bg-[url('/assets/bg_two4.png')] bg-cover bg-no-repeat">
-      <div className="h-360 md:h-585 lg:h-800 3xl:h-950">
+    <div className="bg-[url('/assets/respo_bg_two5_re.png')] md:bg-[url('/assets/bg_two4_re.png')] bg-cover bg-no-repeat">
+      <div className="h-260 md:h-585 lg:h-800 3xl:h-600">
         <h1 className="text-2xl md:text-2xl lg:text-[36px] text-center text-[#15528A] lg:pt-40 pt-20 jacques-francois">
           INTRODUCING
         </h1>
         <h2 className="text-3xl md:text-xl lg:text-[90px] text-center text-[#15528A] px-3 md:px-17 lg:px-51 3xl:px-103 mt-12 lg:mt-16 font-parisienne-regular leading-5 md:leading-tight">
           The Couple
         </h2>
-        <div className="relative flex flex-col items-center mt-12 md:mt-12 lg:mt-20 3xl:mt-30">
+        {/* <div className="relative flex flex-col items-center mt-12 md:mt-12 lg:mt-20 3xl:mt-30">
           <h2 className=" text-[#15528A] text-left text-xl md:text-4xl lg:text-[68px] 3xl:text-[78px] pl-44 md:pl-114 lg:pl-180 3xl:pl-240 md:mt-2 lg:mt-3 3xl:mt-5 flex flex-col justify-end ">
             <span className="jacques-francois">Sargun</span>
             <span className="lavishly-yours-regular opacity-50 text-[#6CB9FF] text-5xl md:text-7xl lg:text-[150px] tracking-widest -mt-6 pl-5 md:-mt-9 md:pl-10 lg:-mt-19 lg:pl-18">
@@ -50,7 +50,7 @@ export default function CoupleMessage() {
             className="absolute top-60 right-38 w-40 h-30 md:right-76 md:top-97 md:w-70 
                                md:h-50 lg:right-142 lg:top-181 lg:w-120 lg:h-91 3xl:top-212 3xl:right-170 3xl:w-160 3xl:h-111 z-20"
           />
-        </div>
+        </div> */}
 
         {/* <h1 className="text-5xl md:text-6xl lg:text-[90px] text-center text-[#15528A] pt-86 md:pt-130 lg:pt-250 3xl:pt-320 leading-tight font-parisienne-regular">
           A Guide for <br />
@@ -112,7 +112,7 @@ export default function CoupleMessage() {
           before the big day.
         </h2> */}
 
-        <div className="flex justify-center md:justify-end md:mt-2 mt-100 lg:mt-295 3xl:mt-320 md:pr-5 lg:pr-10 3xl:pr-30">
+        <div className="flex justify-center md:justify-end md:mt-2 mt-5 lg:mt-295 3xl:mt-60 md:pr-5 lg:pr-10 3xl:pr-30">
           <div className="">
           <h2 className="font-cormorant-upright font-semibold text-center text-2xl md:text-2xl lg:text-[30px] text-[#15528A] pt-10 md:pt-190 lg:pt-102 3xl:pt-150 md:leading-8 lg:leading-14 leading-8 px-10 md:px-0">
               #WhenSargunMetKopal
